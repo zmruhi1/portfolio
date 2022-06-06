@@ -1,6 +1,6 @@
 # How I setup my website
 
-I used the tale theme, you can checkout the site [here](https://zmruhi1.github.io)
+I used the tale theme, you can checkout my site [here](https://zmruhi1.github.io)
 
 ## Archive
 
