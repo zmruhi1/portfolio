@@ -1,10 +1,11 @@
-# How I setup my blog
+---
+layout: post
+title: About
+---
 
-I used the tale theme, you can checkout this [blog](https://swethatanamala.github.io/2020/11/18/jekyll-github-blogs-and-their-ruby-dependencies/) to understand how I setup this blog.
-
-## Blogs Archive
-
-You can check [archive](https://zmruhi1.github.io/archive/) for previous posts
+<p align="center">
+<img src="/assets/Images/about/about.jpg" alt="Architecture">
+</p>
 
 ## About me
 
