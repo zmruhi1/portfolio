@@ -4,7 +4,7 @@ title: About
 ---
 
 <p align="center">
-<img src="/assets/Images/about/about.jpg" alt="Architecture">
+<img src="/assets/Images/about/About.jpg" alt="Architecture">
 </p>
 
 ## About me
