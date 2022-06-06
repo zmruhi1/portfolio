@@ -11,7 +11,7 @@ title: About
 
  I am Zurana Mehrin Ruhi from Dhaka, Bangladesh. I completed my bachelor's degree in Computer Science from BRAC University Bangladesh.
 
-Currently, I am working as a Research Assistant at University of Saarland while pursuing my master's degree in Data Science and Artificial Intelligence. In this website, I am wishing to document my experience during this program and overall, my tech life. To have an overview of my profile, please visit [LinkedIn](https://www.linkedin.com/in/zmruhi/)
+Currently, I am working as a Research Assistant at University of Saarland while pursuing my master's degree in Data Science and Artificial Intelligence. In this website, I wish to document my experience during this program and overall, my tech life. To have an overview of my profile, please visit [LinkedIn](https://www.linkedin.com/in/zmruhi/)
 
 Thanks for reading!
 
