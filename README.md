@@ -4,8 +4,8 @@ I used the tale theme, you can checkout my site [here](https://zmruhi1.github.io
 
 ## Updates 
 
-Jun 7 - first post in progress
-Jun 6 - created website
+- Jun 7: first post in progress
+- Jun 6: created website
 
 ## Archive
 
