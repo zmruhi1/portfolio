@@ -2,6 +2,11 @@
 
 I used the tale theme, you can checkout my site [here](https://zmruhi1.github.io)
 
+## Updates 
+
+Jun 7 - first post in progress
+Jun 6 - created website
+
 ## Archive
 
 You can check [archive](https://zmruhi1.github.io/archive/) for previous posts
