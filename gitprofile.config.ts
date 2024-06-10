@@ -14,8 +14,8 @@ const CONFIG = {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 6,
         exclude: {
-          forks: false,
-          projects: [], // Exclude specific projects if needed.
+          forks: true,
+          projects: ['https://github.com/zmruhi1/portfolio'], // Exclude specific projects if needed.
         },
       },
       manual: {
@@ -23,7 +23,7 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Course Projects',
       projects: [
         {
           title: 'Boosting Vision AI in Retail Using Synthetic Data',
@@ -159,12 +159,12 @@ const CONFIG = {
   ],
   
   themeConfig: {
-    defaultTheme: 'corporate',
+    defaultTheme: 'light',
     disableSwitch: true,
     respectPrefersColorScheme: false,
     displayAvatarRing: true,
     themes: [
-      'corporate', // Removed other themes to focus on corporate.
+      'light', // Removed other themes to focus on corporate.
     ],
     customTheme: {
       primary: '#fc055b',
@@ -176,11 +176,11 @@ const CONFIG = {
       '--rounded-btn': '3rem',
     },
   },
-  footer: `Made with <a 
+  footer: `Source at <a 
       class="text-primary" href="https://github.com/zmruhi1"
       target="_blank"
       rel="noreferrer"
-    >GitHub</a> and ❤️`,
+    >GitHub</a> `,
   enablePWA: true,
 };
 
