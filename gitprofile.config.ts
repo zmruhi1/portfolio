@@ -15,7 +15,7 @@ const CONFIG = {
         limit: 6,
         exclude: {
           forks: true,
-          projects: ['https://github.com/zmruhi1/portfolio'], // Exclude specific projects if needed.
+          projects: ['zmruhi1/portfolio'], // Exclude specific projects if needed.
         },
       },
       manual: {
@@ -42,7 +42,7 @@ const CONFIG = {
   },
   seo: {
     title: 'Portfolio of Zurana Mehrin Ruhi',
-    description: 'Master’s thesis: Developing XAI methodologies for multimodal transformer models.',
+    description: 'Personal Website',
     imageURL: '', // Add a relevant image URL.
   },
   social: {
@@ -51,7 +51,7 @@ const CONFIG = {
     email: 'zurana.mehrin.ruhi1@gmail.com',
   },
   resume: {
-    fileUrl: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Update with actual resume URL if available.
+    fileUrl: 'https://drive.google.com/file/d/1J8SuDjCIO3iT2gZU_yFxdTQ9UkwaQeNQ/view?usp=sharing', // Update with actual resume URL if available.
   },
   skills: [
     'Python', 'C++', 'R', 'SQL',
@@ -66,21 +66,21 @@ const CONFIG = {
       position: 'Research Assistant | MSc Student',
       from: 'August 2022',
       to: 'Present',
-      companyLink: 'https://iml.dfki.de', // Update with actual company link.
+      companyLink: 'https://iml.dfki.de', 
     },
     {
       company: 'Multimedia Signal & Image Processing Research Group, Woosong University',
       position: 'Research Assistant',
       from: 'December 2020',
       to: 'September 2021',
-      companyLink: 'https://sites.google.com/view/drjiauddin/research-areas?pli=1', // Update with actual company link.
+      companyLink: 'https://sites.google.com/view/drjiauddin/research-areas?pli=1', 
     },
     {
       company: 'Giga Tech Ltd',
       position: 'Machine Learning Trainee',
       from: 'August 2020',
       to: 'November 2020',
-      companyLink: 'https://gigatechltd.com', // Update with actual company link.
+      companyLink: 'https://gigatechltd.com', 
     },
   ],
   educations: [
