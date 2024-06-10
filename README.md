@@ -1,6 +1,10 @@
-## Acknowledgemetn
+## Portfolio link 
+<a href="https://zmruhi1.github.io/portfolio/">
+  <img src="https://github.com/zmruhi1/portfolio/blob/main/images/portfolio.png">
+</a>
 
-<p> Ariful Islam's Portfolio</p>
+## Acknowledgement
+
 <a href="https://github.com/arifszn/gitprofile/stargazers">
   <img src="https://img.shields.io/github/stars/arifszn/gitprofile?style=social" alt="Github Star">
 </a>
