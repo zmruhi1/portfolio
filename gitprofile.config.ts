@@ -4,7 +4,7 @@ const CONFIG = {
   github: {
     username: 'zmruhi1', // Your GitHub org/user name.
   },
-  base: '/zmruhi1.github.io/', // Adjusted to your GitHub username.
+  base: '/portfolio/', // Adjusted to your GitHub username.
   projects: {
     github: {
       display: true,
@@ -12,7 +12,7 @@ const CONFIG = {
       mode: 'automatic',
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8,
+        limit: 6,
         exclude: {
           forks: false,
           projects: [], // Exclude specific projects if needed.
@@ -28,14 +28,14 @@ const CONFIG = {
         {
           title: 'Boosting Vision AI in Retail Using Synthetic Data',
           description: 'Implemented a synthetic data generation pipeline and a YOLOv8-based object detection system, achieving an F1 score of 0.99 and mAP@0.5 of 0.995.',
-          imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg', // Update with actual project image URL.
-          link: 'https://github.com/zmruhi1',
+          // imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg', // Update with actual project image URL.
+          // link: 'https://github.com/zmruhi1',
         },
         {
           title: 'Emergency Message Categorization and Analysis System',
           description: 'Engineered an ETL pipeline to handle incoming data and developed a machine learning web application for categorizing disaster-related messages.',
-          imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg', // Update with actual project image URL.
-          link: 'https://github.com/zmruhi1',
+          // imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg', // Update with actual project image URL.
+          // link: 'https://github.com/zmruhi1',
         },
       ],
     },
@@ -47,12 +47,6 @@ const CONFIG = {
   },
   social: {
     linkedin: 'zmruhi',
-    medium: '',
-    dev: '',
-    stackoverflow: '',
-    skype: '',
-    telegram: '',
-    website: 'https://www.linkedin.com/in/zmruhi',
     phone: '+49 176 75950996',
     email: 'zurana.mehrin.ruhi1@gmail.com',
   },
@@ -72,21 +66,21 @@ const CONFIG = {
       position: 'Research Assistant | MSc Student',
       from: 'August 2022',
       to: 'Present',
-      companyLink: 'https://example.com', // Update with actual company link.
+      companyLink: 'https://iml.dfki.de', // Update with actual company link.
     },
     {
       company: 'Multimedia Signal & Image Processing Research Group, Woosong University',
       position: 'Research Assistant',
       from: 'December 2020',
       to: 'September 2021',
-      companyLink: 'https://example.com', // Update with actual company link.
+      companyLink: 'https://sites.google.com/view/drjiauddin/research-areas?pli=1', // Update with actual company link.
     },
     {
       company: 'Giga Tech Ltd',
       position: 'Machine Learning Trainee',
       from: 'August 2020',
       to: 'November 2020',
-      companyLink: 'https://example.com', // Update with actual company link.
+      companyLink: 'https://gigatechltd.com', // Update with actual company link.
     },
   ],
   educations: [
@@ -105,14 +99,63 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'List from Google Scholar',
+      title: 'A novel hybrid signal decomposition technique for transfer learning based industrial fault diagnosis',
+      conferenceName: '',
+      journalName: 'Annals of Emerging Technologies in Computing (AETiC)',
+      authors: 'Zurana Mehrin Ruhi, Sigma Jahan, Jia Uddin',
+      link: 'http://aetic.theiaer.org/archive/v5/v5n4/p4.html',
+      description: 'This paper presents a novel hybrid signal decomposition technique aimed at enhancing the efficiency of transfer learning models for industrial fault diagnosis. The method significantly improves diagnostic accuracy and reliability in various industrial applications.',
+      year: '2021',
+      volume: '5',
+      issue: '4',
+      pages: '37-53',
+      imageUrl: 'public/apple-touch-icon.png',
+      publisher: 'International Association for Educators and Researchers (IAER)'
+    },
+    {
+      title: 'Deep Learning-Based Industrial Fault Diagnosis Using Induction Motor Bearing Signals',
+      conferenceName: '',
+      bookTitle: 'Applied AI and Multimedia Technologies for Smart Manufacturing and CPS Applications',
+      authors: 'Saiful Islam, Sovon Chakraborty, Jannatun Naeem Muna, Moumita Kabir, Zurana Mehrin Ruhi, Jia Uddin',
+      link: 'https://www.igi-global.com/chapter/deep-learning-based-industrial-fault-diagnosis-using-induction-motor-bearing-signals/321250',
+      description: 'This book chapter explores deep learning techniques for fault diagnosis in industrial motors, focusing on induction motor bearing signals to improve diagnostic processes in manufacturing.',
+      year: '2023',
+      pages: '176-204',
+      publisher: 'IGI Global'
+    },
+    {
+      title: 'A Proposal for Physics-Informed Quantum Graph Neural Networks for Simulating Laser Cutting Processes',
       conferenceName: '',
       journalName: '',
-      authors: '',
-      link: 'https://scholar.google.com/citations?user=hhhG4iAAAAAJ&hl=en',
-      description: '',
+      authors: 'Zurana Mehrin Ruhi, Hannah Stein, Wolfgang Maaß',
+      link: 'https://dl.gi.de/bitstreams/af593d54-1b16-4563-9b96-0afae94c6f56/download',
+      description: 'This proposal introduces a physics-informed quantum graph neural network model tailored for simulating and optimizing laser cutting processes, highlighting the integration of quantum computing with graph neural networks for enhanced simulation accuracy.',
+      year: '2023',
+      publisher: 'Gesellschaft für Informatik eV'
     },
+    // Add more publications if any
   ],
+
+  certifications: [
+    {
+      name: 'Data Scientist Nanodegree',
+      body: 'Udacity',
+      year: '2022',
+      link: 'https://confirm.udacity.com/GWVCVXTG',
+      imageUrl: 'https://example.com/path_to_nanodegree_certificate.jpg',  // Replace with actual image URL or use Udacity's badge if available
+      description: `Awarded in 2022, this Nanodegree covered a comprehensive range of topics including Introduction to Deep Learning for Computer Vision, The Machine Learning Workflow, Sensor and Camera Calibration, From Linear Regression to Feedforward Neural Networks, Image Classification with CNNs, Object Detection in Images, and Object Detection in an Urban Environment.`
+    },
+    {
+      name: 'Deep Learning Specialization',
+      body: 'DeepLearning.AI via Coursera',
+      year: '2020',
+      link: 'https://coursera.org/share/dcc79455f1b1b3beb50ea83fb177a558',
+      image: 'images/DL_certificate.pngg',  // Replace with actual image URL or use Coursera's badge if available
+      description: `Completed by Zurana Mehrin Ruhi on June 28, 2020. This specialization included courses on Neural Networks and Deep Learning, Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization, Convolutional Neural Networks, Structuring Machine Learning Projects, and Sequence Models. Approximately 3 months at 10 hours a week to complete.`
+    },
+    // Additional certifications can be added here
+  ],
+  
   themeConfig: {
     defaultTheme: 'corporate',
     disableSwitch: true,
