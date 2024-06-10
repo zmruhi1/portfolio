@@ -23,7 +23,7 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'Course Projects',
+      header: 'My Projects',
       projects: [
         {
           title: 'Boosting Vision AI in Retail Using Synthetic Data',
@@ -62,8 +62,8 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Deutsches Forschungszentrum für Künstliche Intelligenz',
-      position: 'Research Assistant | MSc Student',
+      company: 'Deutsches Forschungszentrum für Künstliche Intelligenz GmbH',
+      position: 'Research Assistant | Master's thesis',
       from: 'August 2022',
       to: 'Present',
       companyLink: 'https://iml.dfki.de', 
@@ -139,6 +139,7 @@ const CONFIG = {
   ],
 
   certifications: [
+    header: 'Certifications',
     {
       name: 'Data Scientist Nanodegree',
       body: 'Udacity',
@@ -155,7 +156,7 @@ const CONFIG = {
       imageUrl: 'https://github.com/zmruhi1/portfolio/blob/main/images/DL_certificate.png',  // Replace with actual image URL or use Coursera's badge if available
       description: `Completed by Zurana Mehrin Ruhi on June 28, 2020. This specialization included courses on Neural Networks and Deep Learning, Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization, Convolutional Neural Networks, Structuring Machine Learning Projects, and Sequence Models. Approximately 3 months at 10 hours a week to complete.`
     },
-    // Additional certifications can be added here
+  
   ],
   
   themeConfig: {
