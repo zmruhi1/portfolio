@@ -109,7 +109,7 @@ const CONFIG = {
       volume: '5',
       issue: '4',
       pages: '37-53',
-      imageUrl: 'public/apple-touch-icon.png',
+      imageUrl: 'https://github.com/zmruhi1/portfolio/blob/main/images/fault_diagnosis_paper.png',
       publisher: 'International Association for Educators and Researchers (IAER)'
     },
     {
@@ -118,6 +118,7 @@ const CONFIG = {
       bookTitle: 'Applied AI and Multimedia Technologies for Smart Manufacturing and CPS Applications',
       authors: 'Saiful Islam, Sovon Chakraborty, Jannatun Naeem Muna, Moumita Kabir, Zurana Mehrin Ruhi, Jia Uddin',
       link: 'https://www.igi-global.com/chapter/deep-learning-based-industrial-fault-diagnosis-using-induction-motor-bearing-signals/321250',
+      imageUrl: 'https://github.com/zmruhi1/portfolio/blob/main/images/book.png',
       description: 'This book chapter explores deep learning techniques for fault diagnosis in industrial motors, focusing on induction motor bearing signals to improve diagnostic processes in manufacturing.',
       year: '2023',
       pages: '176-204',
@@ -129,6 +130,7 @@ const CONFIG = {
       journalName: '',
       authors: 'Zurana Mehrin Ruhi, Hannah Stein, Wolfgang Maaß',
       link: 'https://dl.gi.de/bitstreams/af593d54-1b16-4563-9b96-0afae94c6f56/download',
+      imageUrl: 'https://github.com/zmruhi1/portfolio/blob/main/images/QPINN.png',
       description: 'This proposal introduces a physics-informed quantum graph neural network model tailored for simulating and optimizing laser cutting processes, highlighting the integration of quantum computing with graph neural networks for enhanced simulation accuracy.',
       year: '2023',
       publisher: 'Gesellschaft für Informatik eV'
@@ -142,7 +144,7 @@ const CONFIG = {
       body: 'Udacity',
       year: '2022',
       link: 'https://confirm.udacity.com/GWVCVXTG',
-      imageUrl: 'https://example.com/path_to_nanodegree_certificate.jpg',  // Replace with actual image URL or use Udacity's badge if available
+      imageUrl: 'https://github.com/zmruhi1/portfolio/blob/main/images/DS_nanodegree.png',  // Replace with actual image URL or use Udacity's badge if available
       description: `Awarded in 2022, this Nanodegree covered a comprehensive range of topics including Introduction to Deep Learning for Computer Vision, The Machine Learning Workflow, Sensor and Camera Calibration, From Linear Regression to Feedforward Neural Networks, Image Classification with CNNs, Object Detection in Images, and Object Detection in an Urban Environment.`
     },
     {
@@ -150,7 +152,7 @@ const CONFIG = {
       body: 'DeepLearning.AI via Coursera',
       year: '2020',
       link: 'https://coursera.org/share/dcc79455f1b1b3beb50ea83fb177a558',
-      image: 'images/DL_certificate.pngg',  // Replace with actual image URL or use Coursera's badge if available
+      imageUrl: 'https://github.com/zmruhi1/portfolio/blob/main/images/DL_certificate.png',  // Replace with actual image URL or use Coursera's badge if available
       description: `Completed by Zurana Mehrin Ruhi on June 28, 2020. This specialization included courses on Neural Networks and Deep Learning, Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization, Convolutional Neural Networks, Structuring Machine Learning Projects, and Sequence Models. Approximately 3 months at 10 hours a week to complete.`
     },
     // Additional certifications can be added here
